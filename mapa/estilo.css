@@ -1,4 +1,89 @@
-#map{
-    height: 500px;
-    width: 100%
+html,body{
+    height: 100%;
+    margin:0;
+    padding:0;
 }
+
+#map{
+    height: 100%;
+}
+
+.iglesia_list{
+    position:absolute;
+    top:10vh;
+    left:5vw;
+    bottom:30vh;
+    width: fit-content;
+    border: 2px solid black;
+    z-index: 5;
+    color:white;
+    background-color: #333;
+    opacity:0,8;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iglesia_list > h3{
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 3px solid lightblue;
+}
+
+.iglesia_names{
+    flex:1;
+    padding:2rem;
+    cursor:pointer;
+}
+
+.window{
+    height: fit-content;
+    width: fit-content;
+    background-color: #333;
+    color: white;
+    padding: 0 2rem;
+    
+}
+
+.window > h2{
+    border-bottom: 3px solid lightblue !important;
+}
+
+.gm-style-iw{
+    background-color: #333 !important;
+    opacity:0,8 !important;
+    box-shadow: 0 2px 7px 7px rgba(0, 0, 0, 0.5);
+}
+
+.gm-style-iw-d{
+    overflow: hidden !important;
+}
+
+.gm-style-iw-tc::after{
+    visibility: hidden !important;
+}
+
+.direccion, .telefono{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.direccion > i {
+    margin-right: 1rem;
+    color:tomato;
+}
+
+.telefono > i {
+    margin-right: 1rem;
+    color:lightblue;
+}
+
+.gm-ui-hover-effect{
+    background: #fff !important;
+    border-radius: 50% !important;
+}
+
