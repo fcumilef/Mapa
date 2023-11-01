@@ -1,2 +1,2 @@
-# MapaIglesia
-Mapa de las iglesias UDC
+# Mapa
+Mapa de Ubicaciones
